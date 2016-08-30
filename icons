@@ -1,0 +1,22 @@
+import the current  icons.json file into ico moon
+make necessary changes to the icon set (add remove edit reorder etc)
+click hamburger - download the .json file
+on bottom right - generate the font 
+(this will download a zip file to your computer / unzip and locate the fonts folder - your new font files are here)
+
+make backups of current icon files (the are in the /assets folder)
+icons. svg/ttf/woff/eot & icons.json
+
+upload the newly generated .json file along with the .svg/ttf/woff/eot files to the /assets folder.
+
+Open the new icons.svg file and find the name of the icon you want to add. (ctl f)
+
+eg : <glyph unicode="&#xeac9;" glyph-name="linkedin" d="M928 960h-832c-52.8 0-96-43.2-96-96v-832c0-52.8 43.2-96 96-96h832c52.8 0 96 43.2 96 96v832c0 52.8-43.2 96-96 96zM384 128h-128v448h128v-448zM320 640c-35.4 0-64 28.6-64 64s28.6 64 64 64c35.4 0 64-28.6 64-64s-28.6-64-64-64zM832 128h-128v256c0 35.4-28.6 64-64 64s-64-28.6-64-64v-256h-128v448h128v-79.4c26.4 36.2 66.8 79.4 112 79.4 79.6 0 144-71.6 144-160v-288z" />
+
+copy the unicode -> eac9
+
+Open you css file & create a new class for this icon 
+ .icon-linkedin:before { content: "\eac9"; }
+ 
+ include the class where you would like the icon to appear.
+
