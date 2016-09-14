@@ -20,3 +20,13 @@ Using Theme Gem
 make a copy of all the local files for backup
 
 theme replace
+
+---------To scrape the data from the Big Cartel site ---------------
+
+run the pen/script 
+
+cp & paste the output to a file .csv
+
+https://shop-name.myshopify.com/admin/products -> upload the csv file
+
+
